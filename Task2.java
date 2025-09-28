@@ -7,10 +7,6 @@ public class Task2 {
     public void method() {
         int localVar;          // Local variable
 
-        // Uncommenting the next line will cause a compile-time error becuase the local variable was not initialized :
-        // System.out.println("Local variable: " + localVar);
-
-        // But instance and static variables have default values:
         System.out.println("Instance variable: " + instanceVar);
         System.out.println("Static variable: " + staticVar);
     }
